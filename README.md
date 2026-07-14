@@ -34,23 +34,32 @@ Sistema de controle financeiro desenvolvido em **Java** para execução via term
 ```text
 FinTrack/
 │
-├── app/
-│   └── Main.java
+├── assets/
+│   └── preview.png
 │
-├── controller/
-│   └── FinTracker.java
+├── src/
+│   ├── app/
+│   │   └── Main.java
+│   │
+│   ├── controller/
+│   │   └── FinTracker.java
+│   │
+│   ├── exceptions/
+│   │   └── EntradaInvalidaException.java
+│   │
+│   ├── model/
+│   │   ├── Transacao.java
+│   │   └── TransacaoMensal.java
+│   │
+│   └── utils/
+│       └── Formatador.java
 │
-├── exceptions/
-│   └── EntradaInvalidaException.java
+├── test/
 │
-├── model/
-│   ├── Transacao.java
-│   └── TransacaoMensal.java
-│
-├── utils/
-│   └── Formatador.java
-│
-└── README.md
+├── build.xml
+├── manifest.mf
+├── README.md
+└── .gitignore
 ```
 
 ---
